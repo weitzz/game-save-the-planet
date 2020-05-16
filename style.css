@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgba(255, 255, 255), 0.05;
+    background-image: url(img/back.png);
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 5px 0 5px 5px;
+    letter-spacing: 2px;
+    padding: 0;
+}
+
+#barPlanet {
+    width: 300px;
+    height: 20px;
+    background-color: #66f;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#medidorPlaneta {
+    width: 300px;
+    height: 20px;
+    padding: 4px;
+    position: relative;
+    border-radius: 5px 5px 5px 5px;
+    background: linear-gradient(to right, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(209, 209, 209, 1) 51%, rgba(254, 254, 254, 1) 100%);
+}
+
+.navJog {
+    width: 50px;
+    height: 50px;
+    background-image: URL("img/nave_jog.gif");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.bomb {
+    width: 24px;
+    height: 40px;
+    background-image: URL("img/bomba.gif");
+    position: absolute;
+}
+
+.shootPlayer {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+}
+
+.explosionfloor {
+    width: 55px;
+    height: 57px;
+    position: absolute;
+}
+
+.explosionAir {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+
+.ScreenMsg {
+    position: relative;
+    margin-left: -25%;
+    top: 20px;
+    left: 50%;
+    width: 670px;
+    height: 500px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+.btnPlay {
+    top: 590px;
+    left: 26%;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    margin: 0 auto;
+    border: none;
+    background-color: #66f;
+    width: 670px;
+    height: 60px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.btnPlay:hover {
+    background: #4848f1;
+}
